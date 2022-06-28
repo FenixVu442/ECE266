@@ -40,10 +40,10 @@ void clockUpdate(uint32_t time)						// pointer to a 4-byte array
 
     // Display 01:23 on the 7-segment displays
     // The colon ':' will flash on and off every 0.5 seconds
-    code[0] = seg7Coding[3] + colon;
-    code[1] = seg7Coding[2] + colon;
-    code[2] = seg7Coding[1] + colon;
-    code[3] = seg7Coding[0] + colon;
+    code[0] = seg7Coding[3] + colon; // first digit from right
+    code[1] = seg7Coding[2] + colon; // second digit from right
+    code[2] = seg7Coding[1] + colon; // third digit from right
+    code[3] = seg7Coding[0] + colon; // fourth digit from right
     seg7Update(code);
 
     // Calculate the display digits and colon setting for the next update
