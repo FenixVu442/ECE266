@@ -104,6 +104,7 @@ checkPushButton(uint32_t time)
         // Fast forward minute with wrap-around
         ++minute;
         updateDigit();
+        uprintf("%s\n\r", "Switch1");
         delay = 300; // Prevent button bounce
         break;
 

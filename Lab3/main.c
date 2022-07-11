@@ -19,7 +19,7 @@
 // The running state of the stopwatch system
 enum {
     Reset, Run, Pause
-}  sysState = Run;
+}  sysState = Pause;
 
 // The initial state of the 7-segment display: "00:00" with colon on
 seg7Display_t seg7Display = {
@@ -58,19 +58,18 @@ checkPushButton(uint32_t time)
 
     switch (code) {
     case 1:                         // SW1 is the Reset button, only when the stopwatch is paused
-
-        //
-        // YOUR CODE
-        //
+        seg7Display.d1 = 0;
+        seg7Display.d2 = 0;
+        seg7Display.d3 = 0;
+        seg7Display.d4 = 0;
+        seg7DigitUpdate(&seg7Display);
 
         delay = 250;                // software debouncing
         break;
 
     case 2:                         // SW2 is the Start/Pause/Resume button
-
-        //
-        // YOUR CODE
-        //
+        if (sysState == Run) sysState = Pause;
+        else sysState = Run;
 
         delay = 250;                // software debouncing
         break;
