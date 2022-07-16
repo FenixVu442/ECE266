@@ -13,18 +13,18 @@ ASM_SRCS += \
 
 C_SRCS += \
 ../buzzer.c \
-../main(3).c \
+../main.c \
 ../tm4c123gh6pm_startup_ccs.c 
 
 C_DEPS += \
 ./buzzer.d \
-./main(3).d \
+./main.d \
 ./tm4c123gh6pm_startup_ccs.d 
 
 OBJS += \
 ./buzzer.obj \
 ./buzzer_asm.obj \
-./main(3).obj \
+./main.obj \
 ./tm4c123gh6pm_startup_ccs.obj 
 
 ASM_DEPS += \
@@ -33,12 +33,12 @@ ASM_DEPS += \
 OBJS__QUOTED += \
 "buzzer.obj" \
 "buzzer_asm.obj" \
-"main(3).obj" \
+"main.obj" \
 "tm4c123gh6pm_startup_ccs.obj" 
 
 C_DEPS__QUOTED += \
 "buzzer.d" \
-"main(3).d" \
+"main.d" \
 "tm4c123gh6pm_startup_ccs.d" 
 
 ASM_DEPS__QUOTED += \
@@ -46,7 +46,7 @@ ASM_DEPS__QUOTED += \
 
 C_SRCS__QUOTED += \
 "../buzzer.c" \
-"../main(3).c" \
+"../main.c" \
 "../tm4c123gh6pm_startup_ccs.c" 
 
 ASM_SRCS__QUOTED += \

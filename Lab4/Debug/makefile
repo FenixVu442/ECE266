@@ -12,7 +12,7 @@ GEN_CMDS__FLAG :=
 ORDERED_OBJS += \
 "./buzzer.obj" \
 "./buzzer_asm.obj" \
-"./main(3).obj" \
+"./main.obj" \
 "./tm4c123gh6pm_startup_ccs.obj" \
 "../tm4c123gh6pm.cmd" \
 $(GEN_CMDS__FLAG) \
@@ -159,8 +159,8 @@ Lab4.hex: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "buzzer.obj" "buzzer_asm.obj" "main(3).obj" "tm4c123gh6pm_startup_ccs.obj" 
-	-$(RM) "buzzer.d" "main(3).d" "tm4c123gh6pm_startup_ccs.d" 
+	-$(RM) "buzzer.obj" "buzzer_asm.obj" "main.obj" "tm4c123gh6pm_startup_ccs.obj" 
+	-$(RM) "buzzer.d" "main.d" "tm4c123gh6pm_startup_ccs.d" 
 	-$(RM) "buzzer_asm.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
