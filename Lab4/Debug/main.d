@@ -16,6 +16,7 @@ main.obj: C:/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/assert.
 main.obj: C:/Users/vubui/Desktop/ECE266_Workspaces/._GitHub/LabGroup3/Util/launchpad.h
 main.obj: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/gpio.h
 main.obj: ../buzzer.h
+main.obj: ../motion.h
 
 ../main.c:
 
@@ -48,4 +49,6 @@ C:/Users/vubui/Desktop/ECE266_Workspaces/._GitHub/LabGroup3/Util/launchpad.h:
 C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/gpio.h:
 
 ../buzzer.h:
+
+../motion.h:
 
