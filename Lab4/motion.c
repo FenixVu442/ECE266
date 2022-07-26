@@ -23,5 +23,5 @@
 
 bool motionDetect()                             // in asm
 {
-   GPIOPinRead(MOTION_PORT, MOTION_PIN);
+   return GPIOPinRead(MOTION_PORT, MOTION_PIN);
 }
