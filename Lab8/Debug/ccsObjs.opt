@@ -1,0 +1,1 @@
+"./main.obj" "./ranger.obj" "./ranger_asm.obj" "./ranger_asm_direct.obj" "./seg7.obj" "./sig7digit.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd" -llibc.a -l"C:/Users/vubui/Desktop/ECE266_Workspaces/._GitHub/LabGroup3/Util/Debug/Util.lib" -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" 
