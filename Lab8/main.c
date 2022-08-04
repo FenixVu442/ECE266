@@ -111,7 +111,7 @@ int main(void)
     seg7Init();
     rangerInit();
 
-    uprintf("%s\n\r", "Lab 3: Stopwatch");
+    uprintf("%s\n\r", "Lab 8: Ultrasonic Ranger Timer Capture ");
 
     // Update the clock display
     seg7DigitUpdate(&seg7Display);
