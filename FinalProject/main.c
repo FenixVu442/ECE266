@@ -1,7 +1,8 @@
 /*
- * main.c: Starter code for Lab 7, Spring 2020
+ * Final Project, Spring 2020
+ * Vu Bui
+ * Joseff Glass
  *
- * Created by Zhao Zhang
  */
 
 #include <stdint.h>
